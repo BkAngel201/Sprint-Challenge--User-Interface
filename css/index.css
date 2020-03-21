@@ -168,13 +168,17 @@ header nav ul li:hover {
     border-bottom: none;
     margin-bottom: -15px;
 }
+.contact-page .middle-content {
+    flex-direction: column;
+}
 .about-page .middle-content .content-block {
     width: 48%;
     border-bottom: 1px dashed black;
     padding: 5px 0 20px;
     margin-bottom: 50px;
 }
-.about-page .middle-content button {
+.about-page .middle-content button,
+.contact-page .middle-content button {
     margin-top: 20px;
     padding: 5px 25px;
     border: 2px solid black;
@@ -197,7 +201,6 @@ header nav ul li:hover {
     justify-content: space-evenly;
 }
 
-
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
@@ -207,6 +210,44 @@ header nav ul li:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.contact-page .middle-content form {
+    display: flex;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    justify-content: space-around;
+}
+.contact-page .middle-content form label {
+    width: 30%;
+    text-align: right;
+    padding-right: 30px;
+    padding-top: 10px;
+}
+.contact-page .middle-content form input,
+.contact-page .middle-content form textarea {
+    width: 70%;
+    padding: 10px;
+}
+.contact-page .middle-content form input {
+    margin-bottom: 20px;
+}
+
+.contact-page .middle-content form textarea {
+    height: 120px;
+    resize: none;
+}
+.contact-page .middle-content form button {
+    border-width: 1px;
+    background-color: yellowgreen;
+    transition: background-color .5s;
+    -moz-transition: background-color .5s;
+    -webkit-transition: background-color .5s;
+}
+.contact-page .middle-content form button:hover {
+    border-width: 1px;
+    background-color: green;
 }
 
 .bottom-content {
@@ -289,6 +330,10 @@ footer nav a {
     }
     .about-page .middle-content .content-block img {
         width: 100%;
+    }
+    .contact-page .middle-content {
+        padding-right: 10px;
+        padding-left: 10px;
     }
 }
 @media only screen and (max-width: 650px) {
