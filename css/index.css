@@ -374,6 +374,14 @@ footer nav a {
         padding-left: 10px;
         padding-right: 10px;
     }
+    .contact-page .middle-content form label {
+        text-align: left;
+    }
+    .contact-page .middle-content form label,
+    .contact-page .middle-content form input,
+    .contact-page .middle-content form textarea {
+        width: 100%;
+    }
     .bottom-content {
         flex-direction: column;
     }
