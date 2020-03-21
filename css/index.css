@@ -142,7 +142,8 @@ header nav ul li:hover {
     margin-top: 15px;
     border-bottom: 1px dashed black;
 }
-.about-page .top-content .text-container {
+.about-page .top-content .text-container,
+.contact-page .top-content .text-container {
     width: 100%;
 }
 .top-content img {
@@ -159,7 +160,8 @@ header nav ul li:hover {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
-.about-page .middle-content {
+.about-page .middle-content,
+.contact-page .middle-content {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -184,7 +186,8 @@ header nav ul li:hover {
     padding: 0 2%;
     margin-bottom: 0;
 }
-.about-page .middle-content h2 {
+.about-page .middle-content h2,
+.contact-page .middle-content h2 {
     padding: 10px 0 15px;
 }
 
