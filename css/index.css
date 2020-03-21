@@ -70,13 +70,44 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+header {
+    width: 100%;
+    display: flex;
+}
+header nav {
+    width: calc(100% - 157px);
+}
+header img {
+    height: 40px;
+}
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-height: 65px;
+}
+header nav ul li,
+header nav ul li a {
+    width: 100%;
+}
+header nav ul li a {
+    display: flex;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
 
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
+    margin-top: 15px;
     border-bottom: 1px dashed black;
+}
+.top-content img {
+    margin-bottom: 25px;
 }
 
 .top-content .text-container {
@@ -143,4 +174,36 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* Colors */
+.middle-content .boxes .box.teal-color {
+    background-color: teal;
+}
+.middle-content .boxes .box.gold-color {
+    background-color: gold;
+}
+.middle-content .boxes .box.cadetblue-color {
+    background-color: cadetblue;
+}
+.middle-content .boxes .box.coral-color {
+    background-color: coral;
+}
+.middle-content .boxes .box.crimson-color {
+    background-color: crimson;
+}
+.middle-content .boxes .box.forestgreen-color {
+    background-color: forestgreen;
+}
+.middle-content .boxes .box.darkorchid-color {
+    background-color: darkorchid;
+}
+.middle-content .boxes .box.hotpink-color {
+    background-color: hotpink;
+}
+.middle-content .boxes .box.indigo-color {
+    background-color: indigo;
+}
+.middle-content .boxes .box.dodgerblue-color {
+    background-color: dodgerblue;
 }
