@@ -294,7 +294,7 @@ header nav ul li:hover {
     -webkit-transition: background-color .5s;
 }
 .blog-page .middle-content .general-topics .topic:hover {
-    background-color: rgb(231, 231, 231);
+    background-color: greenyellow;
 }
 .blog-page .middle-content .general-topics .topic a {
     width: 100%;
