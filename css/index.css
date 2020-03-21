@@ -74,9 +74,10 @@ p {
 header {
     width: 100%;
     display: flex;
+    justify-content: space-between;
 }
 header nav {
-    width: calc(100% - 157px);
+    width: calc(100% - 170px);
 }
 header img {
     height: 40px;
@@ -84,7 +85,7 @@ header img {
 header nav ul {
     display: flex;
     justify-content: space-between;
-    min-height: 65px;
+    min-height: 55px;
 }
 header nav ul li,
 header nav ul li a {
